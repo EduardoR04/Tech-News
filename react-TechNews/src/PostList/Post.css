@@ -1,0 +1,172 @@
+/* li {
+    list-style: none;
+} */
+
+.bi-triangle-fill {
+    color: #c4c4c4;
+    margin-right: 0.5%;
+}
+
+.bi-triangle-fill:hover {
+    cursor: pointer;
+}
+
+ .downvote {
+    transform: rotate(180deg);
+}
+
+a {
+    text-decoration: none;
+    color: #000000 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+    margin-top: 1.5%;
+}
+
+.post-id {
+    color: #828282;
+    margin-left: 2%;
+    margin-right: .5%;
+}
+
+.points {
+    color: #828282;
+    margin-left: 6%;
+    object-fit: contain;
+}
+
+.title {
+    font-weight: bolder;
+}
+
+.url {
+    margin-left: .5%;
+    color: #828282;
+    font-weight: 600;
+}
+
+/* Media querys, Implementing responsiveness */
+/* HTML tables can be used to achieve the same thing below */
+@media only screen and (max-width: 500px) {
+    .points {
+      /* background-color: lightblue; */
+      margin-left: 47px;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    .points {
+
+        margin-left: 49px;
+      }
+}
+
+@media only screen and (min-width: 601px) {
+    .points {
+
+        margin-left: 53px;
+      }
+}
+
+@media only screen and (min-width: 701px) {
+    .points {
+
+        margin-left: 56px;
+      }
+}
+
+@media only screen and (min-width: 801px) {
+    .points {
+
+        margin-left: 60px;
+      }
+}
+
+@media only screen and (min-width: 901px) {
+    .points {
+
+        margin-left: 62px;
+      }
+}
+
+@media only screen and (min-width: 1001px) {
+    .points {
+
+        margin-left: 67px;
+      }
+}
+
+@media only screen and (min-width: 1101px) {
+    .points {
+
+        margin-left: 71px;
+      }
+}
+
+@media only screen and (min-width: 1201px) {
+    .points {
+
+        margin-left: 73px;
+      }
+}
+
+@media only screen and (min-width: 1301px) {
+    .points {
+
+        margin-left: 77px;
+      }
+}
+
+@media only screen and (min-width: 1401px) {
+    .points {
+
+        margin-left: 81px;
+      }
+}
+
+@media only screen and (min-width: 1501px) {
+    .points {
+
+        margin-left: 85px;
+      }
+}
+
+@media only screen and (min-width: 1601px) {
+    .points {
+
+        margin-left: 89px;
+      }
+}
+
+@media only screen and (min-width: 1701px) {
+    .points {
+
+        margin-left: 91px;
+      }
+}
+
+@media only screen and (min-width: 1801px) {
+    .points {
+
+        margin-left: 95px;
+      }
+}
+
+@media only screen and (min-width: 1901px) {
+    .points {
+
+        margin-left: 98px;
+      }
+}
+
+@media only screen and (min-width: 2001px) {
+    .points {
+        margin-left: 101px;
+      }
+}

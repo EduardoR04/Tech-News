@@ -1,0 +1,67 @@
+body {
+    background-color: #F6F6EF;
+}
+
+.header {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #FF6600;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-text {
+    object-fit: contain;
+    margin: 0 20px;
+    font-weight: 750;
+}
+
+.panel {
+    width: 25%;
+    border-color: #c4c4c4;
+    margin-left: 2%;
+}
+
+.panel-heading {
+    background-color: #c4c4c4 !important;
+    color: #000000 !important;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.input-text {
+    color: #000000;
+    font-weight: 700 !important;
+    font-size: 12px;
+}
+
+.input-box {
+    margin-left: 5%;
+    width: 80%;
+    margin: 2%;
+}
+
+
+.button {
+    padding: 5px 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FF6600;
+    margin-top: 5%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+/* Media querys, Implementing responsiveness */
+
+@media only screen and (max-width: 700px) {
+    .button {
+        /* background-color: blue; */
+        padding: 5px 25px;
+        margin-top: 10%;
+
+    }
+}
